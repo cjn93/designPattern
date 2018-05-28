@@ -35,6 +35,7 @@ public class Operation {
 	public static void main(String[] args) {
 		
 		try {
+			@SuppressWarnings("resource")
 			Scanner scan = new Scanner(System.in);
 			double numberA= 0;
 			System.out.println("请输入数字A:");

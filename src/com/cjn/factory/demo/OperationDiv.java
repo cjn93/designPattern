@@ -1,4 +1,4 @@
-package com.cjn.easyFactory.demo3;
+package com.cjn.factory.demo;
 
 
 /**

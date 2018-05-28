@@ -9,7 +9,8 @@ import java.util.Scanner;
 public class demo2 {
 		public static void main(String[] args) {
 			try{
-				 Scanner scan = new Scanner(System.in);
+				 @SuppressWarnings("resource")
+				Scanner scan = new Scanner(System.in);
 			        double numberA= 0;
 			        System.out.println("请输入数字A:");
 			        numberA = scan.nextDouble();
